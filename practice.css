@@ -1,0 +1,36 @@
+.user-section{
+    height: 342px;
+    width: 1140px;
+  
+    margin: auto;
+}
+.user-h1{
+    text-align: center;
+}
+
+.user-grid{
+    display:flex;
+   justify-content: space-around;
+    
+    
+}
+.user-card{
+    height: 243px;
+    width: 366px;
+   
+    padding-left: 20px;
+    
+}
+
+.card-img-date{
+    display: flex;
+    align-items: center;
+}
+.card-img-date div{
+    margin-left: 10px;
+   
+
+}
+.img{
+    border-radius: 50%;
+}

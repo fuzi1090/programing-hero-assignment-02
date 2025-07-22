@@ -1,0 +1,328 @@
+ 
+ 
+
+
+.body{
+  
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style:normal;
+  position: relative;
+}
+.main-div{
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* Nav style */
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  height: 698px;
+  width: 100%; background-image: url(/images/Hero-bg.png);
+  
+}
+
+
+
+
+.nav{
+ 
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  padding: 50px 150px;
+  background: transparent;
+  position: absolute;
+  
+  
+  
+
+}
+
+
+.nav-btn{
+  list-style: none;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 48px;
+  width: 131px;
+    border-radius: 10px;
+     color:#FFFFFF ;
+  background-color: #4E47FF;
+  
+  
+}
+button{
+  color:#FFFFFF ;
+  background-color: #4E47FF;
+}
+
+.hed-line{
+  align-items: center;
+}
+.hed-line h1 br{
+  padding-left: 200px;
+}
+
+/* action sstyle*/
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 328px;
+  width: 1140px;
+  
+}
+.action-msg{
+   font-family: "Raleway", sans-serif;
+  height: 203px;
+  width: 517px;
+}
+
+.action-h3{
+  font-weight: bold 42px;
+  
+}
+.action-msg p{
+  font-weight: normal;
+}
+.action-btn{
+  height: 48px;
+  width: 229px;
+  font-weight: bold 16px;
+  border-radius:10px;
+}
+
+
+.action-img img{
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+
+/* productive user section*/
+.stats-section{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.stats-container{
+  text-align: center;
+  padding: 80px 50px;
+  background-color: #f0f4ff;
+  border-radius: 24px;
+  padding-bottom: 200px;
+}
+
+.stats-heading{
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 20px;
+  align-items: center;
+  color:#252432 ;
+}
+.stats-section{
+  align-items: center;
+}
+
+.stats-grid{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.stat-item{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  flex:1 1 200px;
+      padding: 30px;
+      border-radius: 10px;
+      color: #4E47FF;
+}
+
+
+
+.stat-number{
+  font-weight:600;
+  font-size: 70px;
+
+}
+.stat-lebal
+{
+  font-size: 15px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+/* user rivew */
+
+
+
+.testimonials {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+ 
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.testimonial-card {
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+ 
+}
+.testimonial-card h6{
+  font-weight: 700;
+  font-size: 20px;
+  
+
+}
+h6{
+ 
+}
+.date{
+  color: #B3B3B3;
+}
+.avatar{
+  display: flex;
+ align-items: center;
+
+}
+.avatar img{
+  border-radius: 50%;
+}
+.avatar div {
+  margin-left: 10px;
+}
+
+.quote {
+  
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.reviewer {
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.name,
+.date {
+  font-size: 0.875rem;
+  color: #999;
+}
+
+
+/* baner - 2*/
+
+.baner-2{
+ align-items: center;
+ margin-top: 100px;
+}
+.tex-container{
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.item{
+  display: flex;
+  justify-content: center;
+}
+.item button{
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+ margin-top: 20px;
+}
+.img-container img{
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+/* form */
+
+.form{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: max-content;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+}
+.form h1{
+ 
+}
+
+/*footr section*/
+
+.logo-subtaitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-nav{
+  
+}
+.footer-nav ul{
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-nav ul li a{
+  color: #161616;
+ text-decoration: none;
+  margin: 20px;
+
+}
+.footer-nav ul li{
+  list-style: none;
+}
